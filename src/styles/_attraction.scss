@@ -1,0 +1,31 @@
+.attraction {
+    padding: 10px;
+    background-image: linear-gradient(rgb(233, 148, 88), #e01111);
+
+    &__party {
+        display: flex;        
+        gap: 10px;        
+        text-align: center; 
+        
+        @media (max-width: 640px) {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        @media (max-width: 1024px) {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        &__item {
+            font-size: 20px;
+        }
+    }
+
+    &__imagem{
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    
+}
