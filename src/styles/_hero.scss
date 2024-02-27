@@ -24,15 +24,14 @@
     &__invite {
         margin-top: 20px;
         margin-bottom: 20px;
-        text-align: center;
-        color: rgb(25, 39, 2);
+        text-align: center;        
     }
 
     &__text {
         font-size: 30px;
         font-weight: 800;
         text-align: center;
-        color: rgb(25, 39, 2);
+        padding-bottom: 20px;        
     }
 
     @media (max-width: 640px) {

@@ -1,9 +1,14 @@
 @use 'hero';
+@use 'components/infos-party';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Open Sans, sans-serif;
+    color: rgb(25, 39, 2);
+    list-style: none;
+    text-decoration: none;
 }
 
 .container {
