@@ -1,6 +1,8 @@
+@use 'variables';
+
 .attraction {
     padding: 10px;
-    background-image: linear-gradient(rgb(233, 148, 88), #e01111);
+    background-image: linear-gradient(variables.$corDeFundo1, variables.$redDegrade);
 
     &__party {
         display: flex;        
@@ -25,7 +27,5 @@
     &__imagem{
         max-width: 100%;
         margin-top: 10px;
-    }
-
-    
+    }    
 }

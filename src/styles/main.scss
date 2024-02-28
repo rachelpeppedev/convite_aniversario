@@ -1,13 +1,14 @@
 @use 'hero';
 @use 'components/infos-party';
 @use 'attraction';
+@use 'variables';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Open Sans, sans-serif;
-    color: rgb(25, 39, 2);
+    color: variables.$corDoTexto1;
     list-style: none;
     text-decoration: none;
 }
